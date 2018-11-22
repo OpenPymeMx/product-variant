@@ -25,7 +25,7 @@
 from openerp.osv import fields, orm
 import logging
 #from tools.translate import _
-from tools.safe_eval import safe_eval
+from openerp.tools.safe_eval import safe_eval
 
 _logger = logging.getLogger(__name__)
 
